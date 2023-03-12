@@ -3,6 +3,7 @@
 ## Snakemake pages
 * [Homepage](https://snakemake.readthedocs.io/en/stable/)
 * [Snakemake set-up](https://snakemake.readthedocs.io/en/stable/tutorial/setup.html#setup-on-windows)
+* [Snakemake basics](https://snakemake.readthedocs.io/en/stable/tutorial/basics.html)
 
 ## Snakemake command line arguments
 * Run from Snakefile's directory:
@@ -24,6 +25,14 @@
 * Combine them into:
 
     ```snakemake --cores <number_of_threads> -s <snakefile_path> --configfile <configfile_path> --use-envmodules```
+
+* Extra 1: Dry run (make sure that the connections work without actually running anything)
+
+    ```snakemake --cores <number_of_threads> -n```
+
+* Extra 2: Directed Acyclic Graph (DAG)
+
+    ```snakemake --cores <number_of_threads> --dag```
 
 ## Exercises
 1. Simple snakemake rule
