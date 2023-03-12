@@ -1,6 +1,6 @@
 rule target_all:
     input:
-        "full-squared.tsv"
+        "full-multiplied.tsv"
 
 
 rule generate_data:
@@ -16,7 +16,7 @@ rule multiply_data:
     input:
         n = "full.tsv"
     output:
-        s = "full-squared.tsv"
+        s = "full-multiplied.tsv"
     params:
         multiplier = 3
     script:
