@@ -4,6 +4,27 @@
 * [Homepage](https://snakemake.readthedocs.io/en/stable/)
 * [Snakemake set-up](https://snakemake.readthedocs.io/en/stable/tutorial/setup.html#setup-on-windows)
 
+## Snakemake command line arguments
+* Run from Snakefile's directory:
+
+    ```snakemake --cores <number_of_threads>```
+
+* Run Snakefile from different directory:
+
+    ```snakemake --cores <number_of_threads> -s <snakefile_path>```
+
+* Run Snakemake with configuration file:
+
+    ```snakemake --cores <number_of_threads> --configfile <configfile_path>```
+
+* Use environment modules:
+
+    ```snakemake --cores <number_of_threads> --use-envmodules```
+
+* Combine them into:
+
+    ```snakemake --cores <number_of_threads> -s <snakefile_path> --configfile <configfile_path> --use-envmodules```
+
 ## Exercises
 1. Simple snakemake rule
     * [example_a](scripts/example_a/Snakefile)
@@ -23,6 +44,6 @@
 5. Configuration file
     * [example_f](scripts/example_f/Snakefile)
 
-6. Threading and Parallel computing
+6. Threading and Parallel computing \[parallel\]
     * Do not forget to ask for more processors to run in parallel.
     * [example_g](scripts/example_g/Snakefile)
