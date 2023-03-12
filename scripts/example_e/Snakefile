@@ -2,6 +2,7 @@ rule target_all:
     input:
         "full-squared.tsv"
 
+
 rule generate_data:
     input:
         e = "empty.csv"
@@ -11,10 +12,12 @@ rule generate_data:
         "script_a.py"
 
 
-rule square_data:
+rule multiply_data:
     input:
         n = "full.tsv"
     output:
         s = "full-squared.tsv"
+    params:
+        multiplier = 3
     script:
         "script_b.py"
