@@ -50,7 +50,10 @@
 
 7. Adding shell
     * Download plink for this exercise.
-    * [example_h](scripts/example_h/)
+    * [example_h](scripts/example_h/Snakefile)
 
 8. Biology example \[putting it all together\]
     * [example_i](scripts/example_i/)
+
+9. Wildcards \[bonus example\]
+    * [example_j](scripts/example_j/Snakefile)
