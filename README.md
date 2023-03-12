@@ -19,3 +19,10 @@
 
 4. Parameters for rules
     * [example_e](scripts/example_e/Snakefile)
+
+5. Configuration file
+    * [example_f](scripts/example_f/Snakefile)
+
+6. Threading and Parallel computing
+    * Do not forget to ask for more processors to run in parallel.
+    * [example_g](scripts/example_g/Snakefile)
