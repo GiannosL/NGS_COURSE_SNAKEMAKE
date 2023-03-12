@@ -1,0 +1,7 @@
+rule A:
+    input:
+        e = "empty.csv"
+    output:
+        f = "full.tsv"
+    script:
+        "script_a.py"
