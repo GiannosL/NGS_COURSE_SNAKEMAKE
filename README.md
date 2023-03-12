@@ -6,14 +6,16 @@
 
 ## Exercises
 1. Simple snakemake rule
-    * [example_a](example_a/Snakefile)
+    * [example_a](scripts/example_a/Snakefile)
 
 2. Rule with variables
-    * [example_b](example_b/Snakefile)
+    * [example_b](scripts/example_b/Snakefile)
 
 3. Rule with script
-    * [example_c](example_c/Snakefile)
+    * [example_c](scripts/example_c/Snakefile)
 
 3. Multiple rules \[linear\]
-    * [example_d](example_d/Snakefile)
-    
+    * [example_d](scripts/example_d/Snakefile)
+
+4. Parameters for rules
+    * [example_e](scripts/example_e/Snakefile)
